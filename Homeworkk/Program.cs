@@ -163,7 +163,7 @@ namespace Homeworkk
 
             Console.Write("Enter Array Size? ");
             int number = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter numbers:");
+            Console.Write("Enter numbers ");
             int[] arr = new int[number];
             for (int i = 0; i < number; i++)
             {
@@ -186,6 +186,8 @@ namespace Homeworkk
             {
                 Console.Write(arr[i] + " " );
             }
+
+
 
 
 

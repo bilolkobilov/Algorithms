@@ -161,49 +161,31 @@ namespace Homeworkk
 
 
 
-
-
-
-
-
-
         //task 11
-      
-        //      int number = Convert.ToInt32(Console.ReadLine());
-        //      Console.Write("Enter numbers ");
-        //      int[] arr = new int[number];
-        //      for (int i = 0; i < number; i++)
-        //      {
-        //          arr[i] = Convert.ToInt32(Console.ReadLine()S);
-        //      }
-        //    
-
-
-
-
- // static void Main(string[] args)
- //      {
- //
- //     Console.Write("Enter numbers ");
- //     int[] arr = Console.ReadLine().Replace(" ", " ").Split(',').Select(str => int.Parse(str)).ToArray();       
- //     //      Console.Write("Enter Array Size? ");
- //     for (int i = 0; i < arr.Length; i++)
- //     {
- //         int Value = arr[i];
- //         int j = i - 1;
- //         while (j >= 0 && arr[j] > Value)
- //         {
- //             arr[j + 1] = arr[j];
- //             j = j - 1;
- //         }
- //         arr[j + 1] = Value;
- //     }
- //     for (int i = 0; i < arr.Length; i++)
- //     {
- //         Console.Write(arr[i] + " ");
- //     }
- //     Console.ReadLine();
- // }                                                                                                         
+           
+      // static void Main(string[] args)
+      //      {
+      //
+      //     Console.Write("Enter numbers ");
+      //     int[] arr = Console.ReadLine().Replace(" ", " ").Split(',').Select(str => int.Parse(str)).ToArray();       
+      //     //      Console.Write("Enter Array Size? ");
+      //     for (int i = 0; i < arr.Length; i++)
+      //     {
+      //         int Value = arr[i];
+      //         int j = i - 1;
+      //         while (j >= 0 && arr[j] > Value)
+      //         {
+      //             arr[j + 1] = arr[j];
+      //             j = j - 1;
+      //         }
+      //         arr[j + 1] = Value;
+      //     }
+      //     for (int i = 0; i < arr.Length; i++)
+      //     {
+      //         Console.Write(arr[i] + " ");
+      //     }
+      //     Console.ReadLine();
+      // }                                                                                                         
             
            
 

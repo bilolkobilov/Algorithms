@@ -263,7 +263,9 @@ namespace Homeworkk
 
 
 
-
+            //task 14
+      
+        
         //  static void Main(string[] args)
         //  {
         //      Console.WriteLine("Enetr numbers " );
@@ -284,27 +286,6 @@ namespace Homeworkk
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,8 +1,0 @@
-C:\c# homework\Homeworkk\Homeworkk\bin\Debug\Homeworkk.exe.config
-C:\c# homework\Homeworkk\Homeworkk\bin\Debug\Homeworkk.exe
-C:\c# homework\Homeworkk\Homeworkk\bin\Debug\Homeworkk.pdb
-C:\c# homework\Homeworkk\Homeworkk\obj\Debug\Homeworkk.csproj.AssemblyReference.cache
-C:\c# homework\Homeworkk\Homeworkk\obj\Debug\Homeworkk.csproj.SuggestedBindingRedirects.cache
-C:\c# homework\Homeworkk\Homeworkk\obj\Debug\Homeworkk.csproj.CoreCompileInputs.cache
-C:\c# homework\Homeworkk\Homeworkk\obj\Debug\Homeworkk.exe
-C:\c# homework\Homeworkk\Homeworkk\obj\Debug\Homeworkk.pdb

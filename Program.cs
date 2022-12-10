@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Runtime.Remoting.Channels;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -78,6 +80,50 @@ namespace Homeworkk
         //        return  (num[0] <= num[1] && num[1] <= num[2]);
         //        
         //    }
+
+
+
+       
+           // task 5
+      
+     //      static void Main(string[] args)
+     //      {
+     //          Console.Write("Enter a word ");
+     //          string str1 = Convert.ToString(Console.ReadLine());
+     //              
+     //          if (str1[0] == str1[1] - 1 || str1[0] == str1[1] + 1 || str1[2] == str1[1] - 1 || str1[2] == str1[1] + 1)
+     //          {
+     //              Console.Write("True ");
+     //          }
+     //          else
+     //          {
+     //              Console.WriteLine("False ");
+     //          }
+     //          Console.ReadLine();
+     //      }
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //   // task 6
@@ -160,58 +206,38 @@ namespace Homeworkk
 
 
 
-
-
-
-
-
-
         //task 11
 
-        //     static void Main(string[] args)
-        //       { 
-        //   
-        //      Console.Write("Enter Array Size? ");
-        //      int number = Convert.ToInt32(Console.ReadLine());
-        //      Console.Write("Enter numbers ");
-        //      int[] arr = new int[number];
-        //      for (int i = 0; i < number; i++)
-        //      {
-        //          arr[i] = Convert.ToInt32(Console.ReadLine()S);
-        //      }
-        //    
-        //      for (int i = 0; i < arr.Length; i++)
-        //      {
-        //          int Value = arr[i];
-        //          int j = i - 1;
-        //          while(j>= 0 && arr[j] > Value)
+        //  static void Main(string[] args)
+        // {  
+        //     Console.Write("Enter numbers ");
+        //     int[] arr = Console.ReadLine().Replace(" "," ").Split(',').Select(str => int.Parse(str)).ToArray();
+        //     Console.WriteLine("");
+        //          for (int i = 0; i < arr.Length; i++)
         //          {
-        //              arr[j + 1] = arr[j];
-        //              j = j - 1;
+        //              int Value = arr[i];
+        //              int j = i - 1;
+        //              while (j >= 0 && arr[j] > Value)
+        //              {
+        //                  arr[j + 1] = arr[j];
+        //                  j = j - 1;
+        //              }
+        //              arr[j + 1] = Value;
         //          }
-        //          arr[j + 1] = Value;
-        //      }
-        //      for (int i = 0; i < arr.Length; i++)
-        //      {
-        //          Console.Write(arr[i] + " " );
-        //      }
-        //         Console.ReadLine();  
-        //   }
-
-
-
-
-
-
-
-
+        //          for (int i = 0; i < arr.Length; i++)
+        //          {                
+        //              Console.Write(arr[i] + " ");
+        //          }
+        //     Console.ReadLine();
+        // }                                                                                                         
 
 
 
 
 
         // task 12
-        //
+
+
         //  static void Main(string[] args)
         //  {
         //      Console.WriteLine(larg(new int[] { 190, 291, 145, 209, 280, 300 }));
@@ -232,6 +258,7 @@ namespace Homeworkk
         //
         //      return theBiggest;
         //  }
+
 
 
         // task 13
@@ -262,52 +289,29 @@ namespace Homeworkk
 
 
 
+        //task 14
 
-        //task14
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine(nums(new int[] { 1, 2, 3, }));
-            Console.WriteLine(nums(new int[] { 3, 2, 1 }));
+        //  static void Main(string[] args)
+        //  {
+        //      Console.WriteLine("Enetr numbers " );
+        //      int[] arr = Console.ReadLine().Replace(" ", " ").Split(',').Select(str => int.Parse(str)).ToArray();
+        //
+        //     
+        //                                                                                                                        //   Console.WriteLine();
+        //                                                                                                                        //   foreach (int i in array)
+        //                                                                                                                        //       Console.Write(i + ",");
+        //                
+        //                  for (int i = 0; i < arr.Length; i++)
+        //                  {
+        //          Console.Write((',') + i);
+        //                  }
+        //                  Console.ReadLine();
+        //                        }
+        //                       
 
-            Console.ReadLine();
-        }
-        static bool nums(int[] arr)
-        {
-            bool found = false;
-            for (int i = 1; i <= arr.Length - 2; i++)
-            {
-                if (arr[i - 1] + 1 == arr[i] && arr[i + 1] - 1 == arr[i])
-                {
-                    found = true;
-                }
-            }
-            return found;
-        }
-
-    } 
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

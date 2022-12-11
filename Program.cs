@@ -8,82 +8,88 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homeworkk
+namespace Homework2
 {
     internal class Program
     {
 
 
         // task 1
-
-        //     static void Main(string[] args)
-        //     {
-        //         Console.Write("Enter first number ");
-        //         int num1 = Convert.ToInt32(Console.ReadLine());
-        //         Console.Write("Enter second number ");
-        //         int num2 = Convert.ToInt32(Console.ReadLine());
-        //   
-        //         Console.WriteLine(result(num1, num2));
-        //   
-        //         Console.ReadLine(); 
-        //     }
-        //     static int result(int num1, int num2)
-        //     {
-        //         return (num1 % 2 == 0 && num2 % 2 == 0 || num1 % 3 == 0 && num2 % 3 == 0) ? num1 * num2 : num1 + num2;
-        //     }
-
-
-
-        // task 2
-
-        //  static void Main(string[] args)
-        //  {
-        //      Console.Write("Enter word ");
-        //      string str = Convert.ToString(Console.ReadLine());
-        //      Console.WriteLine(result(str ));
-        //      
-        //      Console.ReadLine();
-        //  }
-        //  static bool result(string str ) 
-        //  {
-        //      return (str[0]  == 65 && str[1] == 65 && str[2] == 65) && (str[0] == 90 && str[1] == 90 && str[2] == 90);
-        //     
-        //  }
-
-
-      
-        //task 3
-        //     static void Main(string[] args)
-        //     {
-        //         Console.Write("Enter first number ");
-        //         int num = Convert.ToInt32(Console.ReadLine());
-        //         Console.Write("Enter second number ");
-        //         int num1 = Convert.ToInt32(Console.ReadLine());
-        //         Console.Write("Enter third number ");
-        //         int num2 = Convert.ToInt32(Console.ReadLine());
-        //   
-        //         Console.WriteLine(Result(num, num1, num2));
-        //         Console.ReadLine();
-        //     }
-        //     static bool Result(int num, int num1, int num2)
-        //     {
-        //         return num + num1 > num2 || num * num1 > num2;
-        //     }
-
+       
+       //    static void Main(string[] args)
+       //    {
+       //        Console.Write("Enter first number ");
+       //        int num1 = Convert.ToInt32(Console.ReadLine());
+       //        Console.Write("Enter second number ");
+       //        int num2 = Convert.ToInt32(Console.ReadLine());           
+       //        
+       //        Console.WriteLine((num1 % 2 == 0 && num2 % 2 == 0 || num1 % 3 == 0 && num2 % 3 == 0) ? num1 * num2 : num1 + num2);
+       //        Console.ReadLine();
+       //    }
 
        
-        // task 4
-        //        static void Main(string[] args)
-        //     {
-        //        Console.WriteLine(sort(new int[] { 5, 10, 15}));
-        //        Console.ReadLine();
-        //     }
-        //    static bool sort(int[] num)
-        //    {
-        //        return  (num[0] <= num[1] && num[1] <= num[2]);
-        //        
-        //    }
+         
+     
+           // task 2
+     
+       //  static void Main(string[] args)
+       //  {
+       //      Console.Write("Enter word ");
+       //      string txt = Convert.ToString(Console.ReadLine());
+       //  
+       //      if (txt[0] >= 'A' && txt[0] <= 'Z'  && txt[1] >= 'A' && txt[1] <= 'Z' && txt[2] >= 'A' && txt[2] <= 'Z')
+       //      {
+       //          Console.WriteLine("True ");
+       //      }
+       //      else
+       //      {
+       //          Console.WriteLine("False ");
+       //      }
+       //      Console.ReadLine();
+       //  }
+       
+     
+        
+       
+        //task 3
+         
+       //    static void Main(string[] args)
+       //    {
+       //      Console.Write("Enter numbers ");
+       //      int[] arr = Console.ReadLine().Replace(" "," ").Split(',').Select(str => int.Parse(str)).ToArray();          
+       //          if (arr[0] + arr[1] > arr[2] || arr[0] * arr[1] > arr[2])
+       //          {
+       //              Console.WriteLine("True ");
+       //          }
+       //          else
+       //          {
+       //              Console.WriteLine("False ");
+       //          }           
+       //          Console.ReadLine();
+       //    }
+          
+          
+          
 
+         // task 4
+       
+       //   static void Main(string[] args)
+       //   {
+       //       Console.Write("Enter numbers ");
+       //       int[] num = Console.ReadLine().Replace(" "," ").Split(',').Select(str => int.Parse(str)).ToArray();
+       //
+       //       if (num[0] <= num[1] && num[1] <= num[2])
+       //       {
+       //           Console.WriteLine("True ");
+       //       }
+       //       else
+       //       {
+       //           Console.WriteLine("False ");
+       //       }
+       //       Console.ReadLine();
+       //   }
+          
+        
 
 
         // task 5
@@ -106,9 +112,9 @@ namespace Homeworkk
 
 
 
-        //   // task 6
-        //   static void Main(string[] args)
-        //   {
+           // task 6
+        //     static void Main(string[] args)
+        //     {
         //       Console.Write("Enter a number ");
         //       double num = Convert.ToDouble(Console.ReadLine());
         //           
@@ -125,45 +131,48 @@ namespace Homeworkk
         //           Console.WriteLine("Number is zero");
         //       }
         //       Console.ReadLine();
-        //   }       
+        //    }       
 
 
 
 
-        // task 7
-
-        //    static void Main(string[] args)
-        //    {
-        //        Console.Write("Enter a year ");
-        //        int num = Convert.ToInt32(Console.ReadLine());
-        //        Console.WriteLine(Result(num));
-        //        Console.ReadLine();
-        //    }
-        //    static bool Result(int num)
-        //    {
-        //        return num % 4 == 0;
-        //    }
-        //
-
-
-
-           // task 8
-        //
-        //      static void Main(string[] args)
+            // task 7
+      
+        //   static void Main(string[] args)
         //   {
-        //       Console.Write("Enter a number ");
-        //       int num = Convert.ToInt32(Console.ReadLine());
+        //      Console.Write("Enter a year = ");
+        //      int num = Convert.ToInt32(Console.ReadLine());
+        //      if (num % 4 == 0)
+        //      {
+        //          Console.WriteLine("True ");
+        //      }
+        //      else
+        //      {
+        //          Console.WriteLine("False ");
+        //      }                
+        //          Console.ReadLine();
+        //   }
+            
+        
+        
+        
+             // task 8
+        
+        //     static void Main(string[] args)
+        //     {
+        //        Console.Write("Enter a number ");
+        //        int num = int.Parse(Console.ReadLine());
         //
         //       if (num % 10 == 3 || num % 100 == 3 || num % 1000 == 3 )
         //       {
-        //           Console.WriteLine("True ");
+        //         Console.WriteLine("True ");
         //       }     
         //       else
         //       {
-        //           Console.WriteLine("False ");
-        //       }            
-        //       Console.ReadLine();
-        //   }
+        //         Console.WriteLine("False ");
+        //       }         
+        //         Console.ReadLine();
+        //     }
 
 
 
@@ -185,9 +194,9 @@ namespace Homeworkk
         //  }         
 
 
-         
+
         //task 10
-         
+
         //   static void Main(string[] args)
         //   {
         //       Console.Write("Enter number ");
@@ -203,8 +212,8 @@ namespace Homeworkk
         //   }
 
 
-      
-       
+
+
         //task 11
 
         //  static void Main(string[] args)
@@ -259,7 +268,7 @@ namespace Homeworkk
 
 
 
-       
+
         // task 13
 
         //  static void Main(string[] args)
